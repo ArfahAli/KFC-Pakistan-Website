@@ -1,0 +1,562 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'spartan', sans-serif;
+}
+
+body {
+    width: 100%;
+    background: black;
+    color: white;
+}
+/* newPage */
+
+.col {
+    flex-basis: 50%;
+    min-width: 300px;
+    margin-left: 850px;
+}
+/* productDetails */
+.HeaderButton {
+    padding: 10px;
+    background: red;
+    width: 150px;
+    height: 50px;
+    color: white;
+    border-radius: 7%;
+    border: none;
+    margin-left: 10px;
+}
+
+.sub-container2 {
+    margin: auto;
+    padding: 0 30px;
+    position: relative;
+    top: 40px;
+}
+
+.underHeader {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+input {
+    width: 10rem;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid rgb(128, 0, 0);
+}
+
+.col-2 h2 {
+    margin: 30px 0;
+}
+
+.btn2 {
+    padding: 10px;
+    background: red;
+    color: white;
+    border-radius: 7%;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+  .quantity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .quantity button {
+    padding: 15px 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: aliceblue;
+    background-color: #eb0b0b;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+  }
+  
+  .add-button {
+    padding: 10px 20px;
+    color: aliceblue;
+    background-color: #eb0b0b;
+    border-radius: 10px;
+    border: none;
+  }
+
+.section {
+    position: relative;
+    margin: 5px;
+    width: 350px;
+    padding: 10px;
+    height: 450px;
+    margin-bottom: 50px;
+    border-radius: 3%;
+    transition: transform 0.5s;
+    background: linear-gradient(rgb(45, 45, 45), rgb(66, 66, 66));
+}
+
+.row2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top:70px;
+}
+
+
+.formMeta {
+    display: flex;
+}
+
+.optionButt1, .optionButt2{
+    padding: 10px;
+    background: rgb(173, 114, 114);
+    color: rgb(107, 24, 24);
+    width: 110px;
+    height: 40px;
+    font-size: 13px;
+    font-weight: bolder;
+    border-radius: 100px;
+    border: none;
+    margin-left: 120px;
+    margin-bottom: 10px;
+
+}
+.optionButt1{
+    margin-left: 170px;
+}
+.RequiredButt{
+    padding: 10px;
+    background: rgb(173, 114, 114);
+    color: rgb(107, 24, 24);
+    width: 110px;
+    height: 40px;
+    font-size: 13px;
+    font-weight: bolder;
+    border-radius: 100px;
+    border: none;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.drink-options label {
+    
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.drink-options label img {
+    width: 36px;
+    height: 36px;
+}
+
+.drink-options label h4 {
+    margin-left: 1rem;
+    display: block;
+}
+
+.drink-options label input {
+    width: 16px;
+    height: 16px;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+}
+.drink-options .radio  {
+
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+.form23 h6{
+    margin-left: 16px;
+    margin-top: 5px;
+    color: #8a8a8a;
+}
+
+/* homePage */
+.home {
+    /* margin-bottom: 100vh; */
+    padding: 70px;
+}
+.Banner img{
+    margin-top:60px;
+}
+
+.sub-container {
+    margin: auto;
+    padding: 0 30px;
+}
+
+.col-6 {
+    flex-basis: 10%;
+    min-width: 190px;
+    padding: 10px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+
+.col-6:hover {
+    transform: translateY(-5px);
+}
+
+.col-6 img {
+    width: 100%;
+}
+
+.col-4 {
+    position: relative;
+    flex-basis: 24%;
+    margin: 5px;
+    min-width: 200px;
+    padding: 10px;
+    height: 450px;
+    margin-bottom: 50px;
+    border-radius: 3%;
+    transition: transform 0.5s;
+    background: linear-gradient(rgb(45, 45, 45), rgb(66, 66, 66));
+}
+
+.col-4:hover {
+    transform: translateY(-10px);
+}
+
+.col-4 img {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.addButt {
+    padding: 10px;
+    background: red;
+    color: white;
+    border-radius: 7%;
+    border: none;
+    margin-left: 80px;
+}
+.DeleteButt{
+    padding: 5px;
+    background: red;
+    color: white;
+    border-radius: 7%;
+    border: none;
+    margin-left: 80px;
+    margin-top: 20px;
+
+    width: 50px;
+}
+.col-4 h4,
+h5 {
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+
+}
+
+.checkOut {
+    display: flex;
+    position: absolute;
+    bottom: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col-4 p {
+    padding: 10px 0;
+}
+
+.tittle {
+    font-size: 30px;
+    text-align: left;
+    margin: 20px 0;
+    color: white;
+    line-height: 60px;
+    position: relative;
+}
+
+.tittle::after {
+    content: '';
+    background: rgb(114, 111, 111);
+    width: 60%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    top: 35px;
+    left: 60%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+
+
+/* header */
+
+header {
+    position: fixed;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+
+}
+
+.locationButt i {
+    padding: 2px;
+    color: red;
+    font-size: 20px;
+}
+
+.locationButt {
+    padding: 10px;
+    background: rgb(55, 54, 54);
+    color: white;
+    width: 170px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 100px;
+    border: none;
+}
+
+.devbutt {
+
+    padding: 10px;
+    background: rgb(55, 54, 54);
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 7%;
+    border: none;
+    margin-top: 10px;
+
+}
+
+.logo #LeftItems {
+
+    display: flex;
+    list-style-type: none;
+}
+
+.logo #LeftItems li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.logo #LeftItems li i .devbutt {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+nav ul {
+
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+nav ul li i {
+    color: white;
+}
+nav ul li img {
+    width: 25px;
+    height: 25px;
+}
+.signButton {
+    padding: 10px;
+    background: red;
+    color: white;
+    border-radius: 7%;
+    border: none;
+}
+
+.container {
+    margin: auto;
+    padding: 0 25px;
+    background: rgb(33, 28, 28);
+    width: 100vw;
+    z-index: 1;
+}
+.cart{
+    margin-left: 20px;
+    display: flex;
+    gap: 9px;
+      height: 34px;
+      display: flex;
+      padding: 0 12px;
+      align-items: center;
+      border-radius: 6px;
+      border: 2px solid white;
+      background-color: #1C1816;  
+      color: white;
+  }
+
+/* footer */
+
+.footer {
+    background: rgb(33, 28, 28);
+    font-size: 14px;
+    color: #8a8a8a;
+    padding: 30px 60px;
+    width: 100%;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons .icons a img {
+    padding: 5px 10px;
+}
+
+.socialIcons div h3 {
+    margin-left: 20px;
+}
+
+.icons a img {
+    height: 50px;
+    width: 50px;
+}
+
+.footer p {
+    color: #8a8a8a
+}
+
+.footer h3 {
+    color: white;
+}
+
+.footer .footer-col-1,
+.footer-col-3,
+.footer-col-4 {
+
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1 {
+    flex-basis: 30%;
+}
+
+.footer-col-2 {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img {
+    width: 180px;
+    margin-bottom: 20px;
+
+}
+
+.footer-col-1,
+.footer-col-3,
+.footer-col-4 {
+    flex-basis: 12%;
+    text-align: center;
+}
+
+.footer-col-3 ul,
+.footer-col-4 ul,
+.footer-col-5 ul {
+    list-style-type: none;
+
+}
+
+.footer-col-3 ul {
+    text-align: left;
+
+}
+
+.footer-col-3 ul li a {
+
+    padding-left: 78px;
+}
+
+ul li a {
+    color: #8a8a8a;
+}
+
+.footer-col-1 .app-logos {
+    margin: 20px;
+}
+
+.app-logos img {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 140px;
+}
+
+.footer hr {
+    border: none;
+    background: #b5b5b5;
+    margin: 20px 0;
+    height: 1px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container {
+    margin: auto;
+    padding: 0 25px;
+}
