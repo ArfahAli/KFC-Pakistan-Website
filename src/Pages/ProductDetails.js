@@ -1,9 +1,13 @@
+import React, { useContext } from "react";
+import { useLocation } from "react-router-dom";
+import { MyContext } from "../ContextFile";
 import Header from "./Header";
-import { useState } from "react";
 import Footer from "./Footer";
-const Details = ({ Buttons, quantity, handleIncreaseQuantity, handleDecreaseQuantity, handleAddToBucket, drinkOptions, handleDrinkChange}) => {
 
-    
+const Details = () => {
+    const location = useLocation();
+    const product = location.state.product;
+    const { Buttons, handleIncreaseQuantity, handleDecreaseQuantity, handleAddToBucket, drinkOptions, quantity, handleDrinkChange } = useContext(MyContext);    
     return (
         <div>
             <Header />
@@ -19,12 +23,12 @@ const Details = ({ Buttons, quantity, handleIncreaseQuantity, handleDecreaseQuan
                     <div class="row">
 
                         <div class="col-2">
-                            <img src="Images/detailepic.png" alt="" id="productImg" />
+                        <img src={product.image} alt={product.name} />
                         </div>
                         <div class="col-2">
-                            <h1>Krunch Burger</h1>
-                            <p>Crunchy chicken fillet, spicy mayo, lettuce, sandwiched between a sesame seed bun </p>
-                            <h2>Rs 250</h2>
+                            <h1>{product.name}</h1>
+                            <p>{product.Details} </p>
+                            <h2>{product.price}</h2>
                             <div className="quantity2">
                                 <div class="quantity">
                                     <button onClick={handleDecreaseQuantity}>-</button>
